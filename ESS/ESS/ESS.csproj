@@ -142,7 +142,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="BAL\" />
-    <Folder Include="CSS\NewFolder1\" />
     <Folder Include="CSS\Tab\" />
     <Folder Include="DAL\" />
     <Folder Include="ENT\" />
