@@ -58,6 +58,7 @@
     <Content Include="CSS\Inbox\inbox.css" />
     <Content Include="CSS\Layout\layout.css" />
     <Content Include="CSS\Menu\Menu.css" />
+    <Content Include="CSS\Tab\TabStyle.css" />
     <Content Include="IMAGES\BUTTON\button_add.png" />
     <Content Include="IMAGES\BUTTON\button_addlist.png" />
     <Content Include="IMAGES\BUTTON\button_approve.png" />
@@ -100,9 +101,11 @@
     <Content Include="IMAGES\THEME\inbox\toggle-small.png" />
     <Content Include="Index.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="JS\jquery-1.10.2.js" />
     <Content Include="JS\jquery-1.4.1-vsdoc.js" />
     <Content Include="JS\jquery-1.4.1.js" />
     <Content Include="JS\jquery-1.4.1.min.js" />
+    <Content Include="JS\jquery-ui.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -142,7 +145,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="BAL\" />
-    <Folder Include="CSS\Tab\" />
     <Folder Include="DAL\" />
     <Folder Include="ENT\" />
     <Folder Include="FILES\AM\" />
