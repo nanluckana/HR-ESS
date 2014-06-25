@@ -1,0 +1,121 @@
+﻿*, html { font-family:"TH SarabunPSK"; }
+
+*
+{ 
+    padding: 0; margin: 0;
+    
+   
+}
+body 
+{   
+    color: rgb(33, 33, 33); 
+    font-family: "TH SarabunPSK";
+  /*  font-size: 80%; */
+  font-size:20px;
+}
+
+.font
+{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+.body-bg 
+{   
+    background-image: url(../../IMAGES/THEME/layout/bg_sky.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position:top;
+    background-attachment:fixed;
+    width:100%; 
+ 
+   
+    
+} 
+
+.tab-user
+{
+    background-image: url('../../IMAGES/THEME/layout/tab_user.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 27px;
+    font-weight: bold;
+    color: #000000;
+}
+#header-wrap, #container, #footer 
+{ 
+   	min-height: 5em;
+  /*   padding:5.5; */
+ 	   
+}
+#header-wrap 
+{ 
+ /* background: rgb(250, 250, 250); 
+    background-image: url(../IMAGES/THEME/layout/bg_sky.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    width:1920px;*/
+ /*   padding-left:2.1em; */
+   
+   
+}
+.headerbanner
+{
+    
+    background-image: url(../../IMAGES/THEME/layout/header_banner_th.jpg);
+    background-repeat: no-repeat;
+    
+}
+.container
+{
+   min-height: 10em;
+   background-image: url(../../IMAGES/THEME/layout/bg_inbox_3.png); 
+   background-repeat:no-repeat;
+  
+    
+  /*   background-image: url('../../IMAGES/THEME/layout/bg_inbox_RP.png') ;
+    
+    background-repeat: repeat-y;*/
+}
+.srcoll
+{
+   overflow:auto;
+   width:300px;
+   height:850px;
+}
+
+
+.content
+{ 
+    margin-left: 21%; 
+    padding-top:2px;
+   
+    padding-left:5px;
+     background-image: url(../../IMAGES/THEME/layout/bg_content_1.png); 
+     background-repeat:no-repeat;
+    
+     
+}
+.content:after
+{ 
+    content: " "; 
+    display: block; 
+    clear: both; 
+}
+.sidebar
+{ 
+    
+    width: 20%; 
+    float: left;
+   
+}
+.footer
+{ 
+   /* background: rgb(150, 150, 150); */
+   background-image: url(../../IMAGES/THEME/layout/copyright.png);
+    background-repeat: no-repeat;
+    width:auto;
+    height:45px;
+}

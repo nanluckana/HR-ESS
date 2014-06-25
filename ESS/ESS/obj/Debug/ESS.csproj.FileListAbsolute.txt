@@ -1,0 +1,4 @@
+c:\users\yernnoi\documents\visual studio 2010\Projects\ESS\ESS\bin\ESS.dll
+c:\users\yernnoi\documents\visual studio 2010\Projects\ESS\ESS\bin\ESS.pdb
+c:\users\yernnoi\documents\visual studio 2010\Projects\ESS\ESS\obj\Debug\ESS.dll
+c:\users\yernnoi\documents\visual studio 2010\Projects\ESS\ESS\obj\Debug\ESS.pdb

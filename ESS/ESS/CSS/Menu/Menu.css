@@ -1,0 +1,31 @@
+﻿.contentmenu
+{
+    background-image: url(../../IMAGES/Menu/contentmenu.png);
+    background-repeat: no-repeat;
+}
+.mainmenu
+{
+     background-image: url(../../IMAGES/Menu/menu_OM); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_PA); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_TM); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_PD); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_TE); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_BN); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_PY); 
+     background-repeat:no-repeat;
+     
+     background-image: url(../../IMAGES/Menu/menu_AM); 
+     background-repeat:no-repeat;
+}
