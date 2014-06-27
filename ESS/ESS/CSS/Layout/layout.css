@@ -29,8 +29,6 @@ body
     background-position:top;
     background-attachment:fixed;
     width:100%; 
- 
-   
     
 } 
 
@@ -92,11 +90,9 @@ body
     margin-left: 21%; 
     padding-top:2px;
    
-    padding-left:5px;
+     padding-left:5px;
      background-image: url(../../IMAGES/THEME/layout/bg_content_1.png); 
-     background-repeat:no-repeat;
-    
-     
+     background-repeat:no-repeat;    
 }
 .content:after
 { 
@@ -104,17 +100,18 @@ body
     display: block; 
     clear: both; 
 }
-.sidebar
-{ 
-    
-    width: 20%; 
-    float: left;
-   
+
+.bgmaincontent
+{
+    background-image: url('../../IMAGES/CONTENT/maincontent.png');
+    background-repeat: no-repeat;
+    width: 1550px;
 }
+
+
 .footer
 { 
-   /* background: rgb(150, 150, 150); */
-   background-image: url(../../IMAGES/THEME/layout/copyright.png);
+    background-image: url(../../IMAGES/THEME/layout/copyright.png);
     background-repeat: no-repeat;
     width:auto;
     height:45px;

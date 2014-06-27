@@ -1,0 +1,26 @@
+﻿*, html { font-family:"TH SarabunPSK"; }
+body 
+{
+    
+}
+.fonttopic
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#A60414;
+}
+
+.fontmessage
+{
+    font-size:22px;
+    font-weight: bold;
+    color:#0145a2;
+}
+
+.fontdetail1
+{
+    font-size:25px;
+    font-weight: bold;
+    color:#000000;
+       
+}

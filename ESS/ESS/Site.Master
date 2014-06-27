@@ -7,6 +7,7 @@
         <title>HR Self Service</title>
         <link href="~/CSS/Inbox/inbox.css" rel="stylesheet" type="text/css" /> 
         <link href="~/CSS/Layout/layout.css" rel="stylesheet" type="text/css" />
+        <link href="~/CSS/Font/font.css" rel="stylesheet" type="text/css" />
         <asp:ContentPlaceHolder ID="HeadContent" runat="server">
         </asp:ContentPlaceHolder>
     </head>
@@ -26,30 +27,30 @@
                         </td>
                         <td class="font" height="51px"  width="1628px" align="right" 
                             style="padding-right: 20px" colspan="2">
-                            <img src="../IMAGES/THEME/layout/icon_login.png" width="25px"  height="25px" alt="logout" />
-                          <a href="" style="text-decoration:none; color:Blue;" >  <asp:Label ID="Label10" runat="server" Text="[Sign - Out]" ForeColor="#fc541a"></asp:Label> </a>
+                            <img src="../../IMAGES/THEME/layout/icon_login.png" width="25px"  height="25px" alt="logout" />
+                          <a href="" style="text-decoration:none; color:Blue;" >  <asp:Label ID="lblsignout" runat="server" Text="[Sign - Out]" ForeColor="#fc541a"></asp:Label> </a>
                         </td>
                     </tr>
 
                     <tr>
                         <td height="51px" width="293px"  >
                         </td>
-                        <td width="716px"></td>
+                        <td width="710px"></td>
                         <td class="tab-user" height="51px"  width="912px" align="left" 
-                            style="padding-left: 145px">
+                            style="padding-left: 135px">
                            
-                         ยินดีต้อนรับ คุณ :  <asp:Label ID="Label7" runat="server" Text=" พรรัตน์ บุญยะผลานันท์" ForeColor="#0000CC"></asp:Label>&nbsp;&nbsp;&nbsp;
-                          รหัสพนักงาน :  <asp:Label ID="Label8" runat="server" Text="00000001" ForeColor="#0000CC"></asp:Label>&nbsp;&nbsp;&nbsp;
-                          ตำแหน่ง :  <asp:Label ID="Label9" runat="server" Text="บัญชี" ForeColor="#0000CC"></asp:Label>
+                         ยินดีต้อนรับ คุณ :  <asp:Label ID="lblemployee" runat="server" Text=" พรรัตน์ บุญยะผลานันท์" ForeColor="#0000CC"></asp:Label>&nbsp;&nbsp;&nbsp;
+                          รหัสพนักงาน :  <asp:Label ID="lblid" runat="server" Text="00000001" ForeColor="#0000CC"></asp:Label>&nbsp;&nbsp;&nbsp;
+                          ตำแหน่ง :  <asp:Label ID="lblposition" runat="server" Text="บัญชี" ForeColor="#0000CC"></asp:Label>
                         </td>
                     </tr>
                     <tr>
-                        <td class=container  valign="top" >
-                            <div>
+                        <td valign="top" >
+                            <div class="container" >
                          
                                 <table border="0" width="295px" >
                                     <tr>
-                                        <td class=srcoll  style="padding-left: 25px; padding-top: 80px; "  valign="top"  height="767px">
+                                        <td style="padding-left: 25px; padding-top: 80px; "  valign="top"  height="767px">
                                             
                                             <ol class="tree" >
                                                 <li>
@@ -217,9 +218,9 @@
 
                         <td class="content" valign="top" colspan="2">
                             <div>
-                                <table border="0">
+                                <table width="1600px" height="797px"  border="0">
                                     <tr>
-                                        <td width="1615px" height="797px"  valign="top" style="padding: 25px">
+                                        <td valign="top" style="padding: 15px">
                                             <asp:ContentPlaceHolder ID="MainContent" runat="server" ViewStateMode="Enabled" />
                                         </td>
                                     </tr>

@@ -1,31 +1,76 @@
-﻿.contentmenu
+﻿.fontmenu
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:#FF6600;
+}
+
+
+.contentmenu
 {
     background-image: url(../../IMAGES/Menu/contentmenu.png);
     background-repeat: no-repeat;
 }
-.mainmenu
+.menu_om
 {
-     background-image: url(../../IMAGES/Menu/menu_OM); 
+     background: url(../../IMAGES/Menu/menu_OM.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_PA); 
+     background-size:158px 127px;
+     background-position:center;   
+}
+
+.menu_pa
+{  
+     background-image: url(../../IMAGES/Menu/menu_PA.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_TM); 
+     background-size:158px 127px;
+     background-position:center;
+}   
+ 
+.menu_tm
+{
+     background-image: url(../../IMAGES/Menu/menu_TM.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_PD); 
+     background-size:158px 127px;
+     background-position:center;
+}  
+
+.menu_pd
+{   
+     background-image: url(../../IMAGES/Menu/menu_PD.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_TE); 
+     background-size:158px 127px;
+     background-position:center;
+}  
+
+.menu_te
+{   
+     background-image: url(../../IMAGES/Menu/menu_TE.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_BN); 
+     background-size:158px 127px;
+     background-position:center;
+}  
+
+.menu_bn
+{   
+     background-image: url(../../IMAGES/Menu/menu_BN.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_PY); 
+     background-size:158px 127px;
+     background-position:center;
+} 
+
+.menu_py
+{    
+     background-image: url(../../IMAGES/Menu/menu_PY.png); 
      background-repeat:no-repeat;
-     
-     background-image: url(../../IMAGES/Menu/menu_AM); 
+     background-size:158px 127px;
+     background-position:center;
+}  
+
+.menu_am
+{
+     background-image: url(../../IMAGES/Menu/menu_AM.png); 
      background-repeat:no-repeat;
+     background-size:158px 127px;
+     background-position:center;
 }
