@@ -1,0 +1,152 @@
+﻿/* Tab Menu*/
+  #tabs li a.employee_detail 
+  {
+	background-image: url(../Images/employee_detail.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+  #tabs li a.icon_approved 
+  {
+	background-image: url(../Images/icon_approved.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+           
+  #tabs li a.icon_attach 
+  {
+	background-image: url(../Images/icon_attach.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.icon_history-log 
+  {
+	background-image: url(../Images/icon_history-log.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+  #tabs li a.education_icon
+  {
+	background-image: url(../Images/education_icon.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }                     
+ 
+  #tabs li a.info
+  {
+	background-image: url(../Images/info.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.bank
+  {
+	background-image: url(../Images/bank.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+   #tabs li a.family-icon
+  {
+	background-image: url(../Images/family-icon.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+     
+ #tabs li a.infomation
+  {
+	background-image: url(../Images/infomation.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+  #tabs li a.infomation2
+  {
+	background-image: url(../Images/infomation2.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+  #tabs li a.infomation3
+  {
+	background-image: url(../Images/infomation3.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+   #tabs li a.infomation4
+  {
+	background-image: url(../Images/infomation4.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.card
+  {
+	background-image: url(../Images/card.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.circle_graph
+  {
+	background-image: url(../Images/circle_graph.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.work_papar
+  {
+	background-image: url(../Images/work_papar.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.notification
+  {
+	background-image: url(../Images/notification.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.date_icon
+  {
+	background-image: url(../Images/date_icon.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+
+  #tabs li a.plus
+  {
+	background-image: url(../Images/plus.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
+  
+  #tabs li a.thailand_ribbon
+  {
+	background-image: url(../Images/Thailand_ribbon.png);
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+  }
