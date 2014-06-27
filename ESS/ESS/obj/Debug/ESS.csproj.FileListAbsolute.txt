@@ -7,3 +7,16 @@ C:\Users\Yernnoi\Documents\GitHub\HR-ESS\ESS\ESS\bin\ESS.pdb
 C:\Users\Yernnoi\Documents\GitHub\HR-ESS\ESS\ESS\bin\IBM.Data.DB2.dll
 C:\Users\Yernnoi\Documents\GitHub\HR-ESS\ESS\ESS\obj\Debug\ESS.dll
 C:\Users\Yernnoi\Documents\GitHub\HR-ESS\ESS\ESS\obj\Debug\ESS.pdb
+<<<<<<< HEAD
+C:\Users\Nannie\Documents\NBTC-WEB\ESS\ESS\bin\ESS.dll
+C:\Users\Nannie\Documents\NBTC-WEB\ESS\ESS\bin\ESS.pdb
+C:\Users\Nannie\Documents\NBTC-WEB\ESS\ESS\obj\Debug\ESS.dll
+C:\Users\Nannie\Documents\NBTC-WEB\ESS\ESS\obj\Debug\ESS.pdb
+=======
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\bin\ESS.dll
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\bin\ESS.pdb
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\bin\IBM.Data.DB2.dll
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\obj\Debug\ESS.csprojResolveAssemblyReference.cache
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\obj\Debug\ESS.dll
+C:\Users\Kirakorn\Documents\GitHub\HR-ESS\ESS\ESS\obj\Debug\ESS.pdb
+>>>>>>> origin/master

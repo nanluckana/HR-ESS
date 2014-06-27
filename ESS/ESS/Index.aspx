@@ -9,13 +9,19 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-        <table width="1500px" height="800px">
+        <table width="1500px" Height="800px">
             <tr>
+
+                <td valign="top"  >
+                    <div>
+                        <table width="690px" Height="661px" align="left" class="contentmenu"  >
+
                 <td valign="top">
                     <div class="fontmenu" >
                         <table width="690px" height="661px" align="center" class="contentmenu"> 
                             
                            
+
 
                             <tr>
                                 <td width="10" height="140px"></td>
