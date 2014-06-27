@@ -8,11 +8,11 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-        <table width="1500px" height="800px">
+        <table width="1500px" Height="800px">
             <tr>
                 <td valign="top"  >
                     <div>
-                        <table width="690px" height="661px" align="left" class="contentmenu"  >
+                        <table width="690px" Height="661px" align="left" class="contentmenu"  >
                             <tr>
                                 <td align="left" valign="top" colspan="3">Test ระบบ</td>
                             </tr>

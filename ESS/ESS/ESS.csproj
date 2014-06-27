@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="IBM.Data.DB2, Version=9.7.4.4, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Programs\IBM.Data.DB2.dll</HintPath>
+      <HintPath>..\..\..\..\..\IBM.Data.DB2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Content Include="CSS\Layout\layout.css" />
     <Content Include="CSS\Menu\Menu.css" />
     <Content Include="CSS\Tab\TabStyle.css" />
+    <Content Include="FILES\PA\WebForm1.aspx" />
     <Content Include="IMAGES\BUTTON\button_add.png" />
     <Content Include="IMAGES\BUTTON\button_addlist.png" />
     <Content Include="IMAGES\BUTTON\button_approve.png" />
@@ -116,6 +117,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FILES\PA\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FILES\PA\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,7 +158,6 @@
     <Folder Include="FILES\AM\" />
     <Folder Include="FILES\BN\" />
     <Folder Include="FILES\OM\" />
-    <Folder Include="FILES\PA\" />
     <Folder Include="FILES\PD\" />
     <Folder Include="FILES\PY\" />
     <Folder Include="FILES\TE\" />
@@ -186,7 +193,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>10967</DevelopmentServerPort>
+          <DevelopmentServerPort>10083</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
