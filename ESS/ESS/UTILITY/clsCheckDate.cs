@@ -7,9 +7,9 @@ namespace ESS.UTILITY
 {
     public class clsCheckDate
     {
-        public clsCheckDate( ) 
-        { 
-
+        public clsCheckDate() 
+        {
+            
         }
 
     }

@@ -14,6 +14,7 @@
     <AssemblyName>ESS</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,17 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IBM.Data.DB2, Version=9.7.4.4, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\Programs\IBM.Data.DB2.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -52,13 +47,15 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Inbox\inbox.css" />
+    <Content Include="CSS\Jquery\jquery-ui.css" />
     <Content Include="CSS\Layout\layout.css" />
     <Content Include="CSS\Menu\Menu.css" />
     <Content Include="CSS\Tab\TabStyle.css" />
+    <Content Include="FILES\PY\WebForm1.aspx" />
     <Content Include="IMAGES\BUTTON\button_add.png" />
     <Content Include="IMAGES\BUTTON\button_addlist.png" />
     <Content Include="IMAGES\BUTTON\button_approve.png" />
@@ -88,6 +85,7 @@
     <Content Include="IMAGES\MESSAGE\message_2.png" />
     <Content Include="IMAGES\MESSAGE\message_3.png" />
     <Content Include="IMAGES\MESSAGE\message_4.png" />
+    <Content Include="IMAGES\PY\icon-calendar.png" />
     <Content Include="IMAGES\THEME\layout\bg_inbox_3.png" />
     <Content Include="IMAGES\THEME\layout\bg_sky.jpg" />
     <Content Include="IMAGES\THEME\layout\copyright.png" />
@@ -106,6 +104,7 @@
     <Content Include="JS\jquery-1.4.1.js" />
     <Content Include="JS\jquery-1.4.1.min.js" />
     <Content Include="JS\jquery-ui.js" />
+    <Content Include="UI\PY\CommentSlip.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -116,6 +115,14 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ENT\clsPY_Comment_Slip.cs" />
+    <Compile Include="FILES\PY\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FILES\PY\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -134,6 +141,14 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="UI\PY\CommentSlip.aspx.cs">
+      <DependentUpon>CommentSlip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\PY\CommentSlip.aspx.designer.cs">
+      <DependentUpon>CommentSlip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UTILITY\clsCheckDate.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,14 +160,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="BAL\" />
+    <Folder Include="CSS\Icon\" />
     <Folder Include="DAL\" />
-    <Folder Include="ENT\" />
     <Folder Include="FILES\AM\" />
     <Folder Include="FILES\BN\" />
     <Folder Include="FILES\OM\" />
     <Folder Include="FILES\PA\" />
     <Folder Include="FILES\PD\" />
-    <Folder Include="FILES\PY\" />
     <Folder Include="FILES\TE\" />
     <Folder Include="FILES\TM\" />
     <Folder Include="IMAGES\AM\" />
@@ -160,7 +174,6 @@
     <Folder Include="IMAGES\OM\" />
     <Folder Include="IMAGES\PA\" />
     <Folder Include="IMAGES\PD\" />
-    <Folder Include="IMAGES\PY\" />
     <Folder Include="IMAGES\TE\" />
     <Folder Include="IMAGES\TM\" />
     <Folder Include="JS\Tab\" />
@@ -170,10 +183,8 @@
     <Folder Include="UI\OM\" />
     <Folder Include="UI\PA\" />
     <Folder Include="UI\PD\" />
-    <Folder Include="UI\PY\" />
     <Folder Include="UI\TE\" />
     <Folder Include="UI\TM\" />
-    <Folder Include="UTILITY\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
