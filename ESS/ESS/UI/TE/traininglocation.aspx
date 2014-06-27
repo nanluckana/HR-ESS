@@ -108,7 +108,16 @@
                     <div>
                         <table height="600px" >
                             <tr>
-                                <td></td>
+                                <td align=center >
+                                    <asp:GridView ID="grdLocation" runat="server" AutoGenerateColumns="False">
+                                        <Columns>
+                                            <asp:CommandField HeaderText="รหัสสถานที่ฝึกอบรม" />
+                                            <asp:CommandField HeaderText="ชื่อย่อ" />
+                                            <asp:CommandField HeaderText="ชื่อเต็ม" />
+                                            <asp:CommandField HeaderText="จังหวัด" />
+                                        </Columns>
+                                    </asp:GridView>
+                                </td>
                             </tr>
                         </table>
                     </div>
