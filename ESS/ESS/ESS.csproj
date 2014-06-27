@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IBM.Data.DB2, Version=9.7.4.4, Culture=neutral, PublicKeyToken=7c307b91aa13d208, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\IBM.Data.DB2.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -41,6 +45,8 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -50,12 +56,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\bgcontent.css" />
+    <Content Include="CSS\Font\font.css" />
     <Content Include="CSS\Inbox\inbox.css" />
     <Content Include="CSS\Jquery\jquery-ui.css" />
     <Content Include="CSS\Layout\layout.css" />
     <Content Include="CSS\Menu\Menu.css" />
     <Content Include="CSS\Tab\TabStyle.css" />
     <Content Include="FILES\PY\WebForm1.aspx" />
+    <Content Include="FILES\PA\WebForm1.aspx" />
     <Content Include="IMAGES\BUTTON\button_add.png" />
     <Content Include="IMAGES\BUTTON\button_addlist.png" />
     <Content Include="IMAGES\BUTTON\button_approve.png" />
@@ -70,6 +79,9 @@
     <Content Include="IMAGES\BUTTON\button_save.png" />
     <Content Include="IMAGES\BUTTON\button_save1.png" />
     <Content Include="IMAGES\BUTTON\button_search.png" />
+    <Content Include="IMAGES\CONTENT\contentabstract.png" />
+    <Content Include="IMAGES\CONTENT\maincontent.png" />
+    <Content Include="IMAGES\CONTENT\maincontent_bottom.png" />
     <Content Include="IMAGES\LINE\line.png" />
     <Content Include="IMAGES\LINE\line2.png" />
     <Content Include="IMAGES\Menu\contentmenu.png" />
@@ -86,10 +98,10 @@
     <Content Include="IMAGES\MESSAGE\message_3.png" />
     <Content Include="IMAGES\MESSAGE\message_4.png" />
     <Content Include="IMAGES\PY\icon-calendar.png" />
+    <Content Include="IMAGES\THEME\inbox\document.png" />
     <Content Include="IMAGES\THEME\layout\bg_inbox_3.png" />
     <Content Include="IMAGES\THEME\layout\bg_sky.jpg" />
     <Content Include="IMAGES\THEME\layout\copyright.png" />
-    <Content Include="IMAGES\THEME\layout\document.png" />
     <Content Include="IMAGES\THEME\inbox\folder-horizontal.png" />
     <Content Include="IMAGES\THEME\layout\header_banner_en.jpg" />
     <Content Include="IMAGES\THEME\layout\header_banner_th.jpg" />
@@ -97,12 +109,17 @@
     <Content Include="IMAGES\THEME\layout\tab_user.png" />
     <Content Include="IMAGES\THEME\inbox\toggle-small-expand.png" />
     <Content Include="IMAGES\THEME\inbox\toggle-small.png" />
+    <Content Include="IMAGES\TM\maincontent_bottom.png" />
+    <Content Include="IMAGES\TM\maincontent_center.png" />
+    <Content Include="IMAGES\TM\maincontent_top.png" />
     <Content Include="Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="JS\jquery-1.10.2.js" />
     <Content Include="JS\jquery-1.4.1-vsdoc.js" />
     <Content Include="JS\jquery-1.4.1.js" />
     <Content Include="JS\jquery-1.4.1.min.js" />
+    <Content Include="UI\TE\traininglocation.aspx" />
+    <Content Include="UI\TE\WebForm1.aspx" />
     <Content Include="JS\jquery-ui.js" />
     <Content Include="UI\PY\CommentSlip.aspx" />
     <Content Include="Web.config" />
@@ -121,6 +138,11 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FILES\PY\WebForm1.aspx.designer.cs">
+    <Compile Include="FILES\PA\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FILES\PA\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
@@ -149,6 +171,21 @@
       <DependentUpon>CommentSlip.aspx</DependentUpon>
     </Compile>
     <Compile Include="UTILITY\clsCheckDate.cs" />
+    <Compile Include="UI\TE\traininglocation.aspx.cs">
+      <DependentUpon>traininglocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TE\traininglocation.aspx.designer.cs">
+      <DependentUpon>traininglocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TE\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TE\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UTILITY\clsCleardata.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,7 +202,6 @@
     <Folder Include="FILES\AM\" />
     <Folder Include="FILES\BN\" />
     <Folder Include="FILES\OM\" />
-    <Folder Include="FILES\PA\" />
     <Folder Include="FILES\PD\" />
     <Folder Include="FILES\TE\" />
     <Folder Include="FILES\TM\" />
@@ -175,7 +211,6 @@
     <Folder Include="IMAGES\PA\" />
     <Folder Include="IMAGES\PD\" />
     <Folder Include="IMAGES\TE\" />
-    <Folder Include="IMAGES\TM\" />
     <Folder Include="JS\Tab\" />
     <Folder Include="JS\Treeview\" />
     <Folder Include="UI\AM\" />
@@ -184,6 +219,7 @@
     <Folder Include="UI\PA\" />
     <Folder Include="UI\PD\" />
     <Folder Include="UI\TE\" />
+    <Folder Include="UI\PY\" />
     <Folder Include="UI\TM\" />
   </ItemGroup>
   <ItemGroup>
@@ -197,7 +233,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>10967</DevelopmentServerPort>
+          <DevelopmentServerPort>10083</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
