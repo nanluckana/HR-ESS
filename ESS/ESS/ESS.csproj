@@ -14,6 +14,7 @@
     <AssemblyName>ESS</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,21 +41,22 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\bgcontent.css" />
+    <Content Include="CSS\Font\font.css" />
     <Content Include="CSS\Inbox\inbox.css" />
     <Content Include="CSS\Layout\layout.css" />
     <Content Include="CSS\Menu\Menu.css" />
@@ -74,6 +76,9 @@
     <Content Include="IMAGES\BUTTON\button_save.png" />
     <Content Include="IMAGES\BUTTON\button_save1.png" />
     <Content Include="IMAGES\BUTTON\button_search.png" />
+    <Content Include="IMAGES\CONTENT\contentabstract.png" />
+    <Content Include="IMAGES\CONTENT\maincontent.png" />
+    <Content Include="IMAGES\CONTENT\maincontent_bottom.png" />
     <Content Include="IMAGES\LINE\line.png" />
     <Content Include="IMAGES\LINE\line2.png" />
     <Content Include="IMAGES\Menu\contentmenu.png" />
@@ -89,10 +94,10 @@
     <Content Include="IMAGES\MESSAGE\message_2.png" />
     <Content Include="IMAGES\MESSAGE\message_3.png" />
     <Content Include="IMAGES\MESSAGE\message_4.png" />
+    <Content Include="IMAGES\THEME\inbox\document.png" />
     <Content Include="IMAGES\THEME\layout\bg_inbox_3.png" />
     <Content Include="IMAGES\THEME\layout\bg_sky.jpg" />
     <Content Include="IMAGES\THEME\layout\copyright.png" />
-    <Content Include="IMAGES\THEME\layout\document.png" />
     <Content Include="IMAGES\THEME\inbox\folder-horizontal.png" />
     <Content Include="IMAGES\THEME\layout\header_banner_en.jpg" />
     <Content Include="IMAGES\THEME\layout\header_banner_th.jpg" />
@@ -100,12 +105,17 @@
     <Content Include="IMAGES\THEME\layout\tab_user.png" />
     <Content Include="IMAGES\THEME\inbox\toggle-small-expand.png" />
     <Content Include="IMAGES\THEME\inbox\toggle-small.png" />
+    <Content Include="IMAGES\TM\maincontent_bottom.png" />
+    <Content Include="IMAGES\TM\maincontent_center.png" />
+    <Content Include="IMAGES\TM\maincontent_top.png" />
     <Content Include="Index.aspx" />
     <Content Include="Global.asax" />
     <Content Include="JS\jquery-1.10.2.js" />
     <Content Include="JS\jquery-1.4.1-vsdoc.js" />
     <Content Include="JS\jquery-1.4.1.js" />
     <Content Include="JS\jquery-1.4.1.min.js" />
+    <Content Include="UI\TE\traininglocation.aspx" />
+    <Content Include="UI\TE\WebForm1.aspx" />
     <Content Include="JS\jquery-ui.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -142,6 +152,21 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="UI\TE\traininglocation.aspx.cs">
+      <DependentUpon>traininglocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TE\traininglocation.aspx.designer.cs">
+      <DependentUpon>traininglocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TE\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TE\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UTILITY\clsCleardata.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,7 +194,6 @@
     <Folder Include="IMAGES\PD\" />
     <Folder Include="IMAGES\PY\" />
     <Folder Include="IMAGES\TE\" />
-    <Folder Include="IMAGES\TM\" />
     <Folder Include="JS\Tab\" />
     <Folder Include="JS\Treeview\" />
     <Folder Include="UI\AM\" />
@@ -178,9 +202,7 @@
     <Folder Include="UI\PA\" />
     <Folder Include="UI\PD\" />
     <Folder Include="UI\PY\" />
-    <Folder Include="UI\TE\" />
     <Folder Include="UI\TM\" />
-    <Folder Include="UTILITY\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
